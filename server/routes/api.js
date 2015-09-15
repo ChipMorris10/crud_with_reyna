@@ -8,26 +8,27 @@ router.get('/', function(req, res, next) {
 });
 
 
-// Post all llamas
-router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
-});
-
-
 // Get one llama
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
+
 });
 
 
-// Edit one llama
-router.get('/', function(req, res, next) {
+// Post llamas
+router.post('/', function(req, res, next) {
+    res.render('index', { title: 'Express' });
+});
+
+
+// Upadte one llama
+router.put('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
 
 // Delete one llama
-router.get('/', function(req, res, next) {
+router.delete('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
